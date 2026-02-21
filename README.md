@@ -10,36 +10,19 @@ Zero dependencies. Four interfaces: CLI, Module, MCP Server, Skill.
 
 ## Install
 
-### Universal Installer
-
-```bash
-wip-install wipcomputer/wip-grok
-```
-
-Detects all interfaces and installs them. See [wip-universal-installer](https://github.com/wipcomputer/wip-universal-installer).
-
-### For AI Agents
-
 Open your AI coding tool and say:
 
 ```
-Clone wipcomputer/wip-grok and set up Grok search and image generation.
+Clone wipcomputer/wip-grok and read the README and SKILL.md.
+Then explain to me:
+1. What is this tool?
+2. What does it do?
+3. What would it change or fix in our current system?
+
+Then ask me if I have more questions, or if I want you to integrate it into our system.
 ```
 
-Your agent will clone the repo, read this README, and configure the tool.
-
-### npm
-
-```bash
-npm install -g @wipcomputer/wip-grok
-```
-
-### From Source
-
-```bash
-git clone https://github.com/wipcomputer/wip-grok.git
-cd wip-grok
-```
+Your agent will read the repo, explain the tool, and walk you through integration interactively.
 
 ### API Key
 

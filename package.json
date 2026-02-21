@@ -2,7 +2,7 @@
   "name": "@wipcomputer/wip-grok",
   "version": "1.0.0",
   "type": "module",
-  "description": "xAI Grok API. Search the web, search X, generate images and video. Sensor + Actuator.",
+  "description": "xAI Grok API. Search the web, search X, generate images, generate video.",
   "main": "core.mjs",
   "exports": {
     ".": "./core.mjs",
