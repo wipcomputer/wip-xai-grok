@@ -6,7 +6,7 @@ xAI Grok API. Search the web, search X, generate images, generate video. All fro
 **Sensor:** search_web, search_x ... turns questions into knowledge.
 **Actuator:** generate_image, edit_image, generate_video ... turns prompts into media.
 
-Zero dependencies. Four doors: CLI, Module, MCP Server, Skill.
+Zero dependencies. Four interfaces: CLI, Module, MCP Server, Skill.
 
 ## Install
 
