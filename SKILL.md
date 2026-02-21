@@ -1,6 +1,6 @@
 ---
 name: wip-grok
-version: 1.0.0
+version: 1.0.1
 description: xAI Grok API. Search the web, search X, generate images, generate video.
 homepage: https://github.com/wipcomputer/wip-grok
 metadata:
