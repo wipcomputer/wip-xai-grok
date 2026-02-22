@@ -1,8 +1,8 @@
 ---
-name: wip-grok
+name: wip-xai-grok
 version: 1.0.2
 description: xAI Grok API. Search the web, search X, generate images, generate video.
-homepage: https://github.com/wipcomputer/wip-grok
+homepage: https://github.com/wipcomputer/wip-xai-grok
 metadata:
   category: search,media
   api_base: https://api.x.ai/v1
@@ -24,7 +24,7 @@ author:
   name: Parker Todd Brooks
 ---
 
-# wip-grok
+# wip-xai-grok
 
 xAI Grok API. Sensor (search) + Actuator (generate). All xAI functions in one tool.
 
@@ -63,9 +63,9 @@ xAI Grok API. Sensor (search) + Actuator (generate). All xAI functions in one to
 
 ### Do NOT Use For
 
-- Fetching a specific X post by URL (use wip-x fetch_post instead)
-- Posting tweets (use wip-x post_tweet)
-- Reading bookmarks (use wip-x get_bookmarks)
+- Fetching a specific X post by URL (use wip-xai-x fetch_post instead)
+- Posting tweets (use wip-xai-x post_tweet)
+- Reading bookmarks (use wip-xai-x get_bookmarks)
 - Historical facts that won't change
 - Mathematical calculations
 

@@ -1,5 +1,5 @@
 {
-  "name": "@wipcomputer/wip-grok",
+  "name": "@wipcomputer/wip-xai-grok",
   "version": "1.0.2",
   "type": "module",
   "description": "xAI Grok API. Search the web, search X, generate images, generate video.",
@@ -9,7 +9,7 @@
     "./cli": "./cli.mjs"
   },
   "bin": {
-    "wip-grok": "./cli.mjs"
+    "wip-xai-grok": "./cli.mjs"
   },
   "scripts": {
     "test": "node cli.mjs"
@@ -33,6 +33,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wipcomputer/wip-grok.git"
+    "url": "git+https://github.com/wipcomputer/wip-xai-grok.git"
   }
 }

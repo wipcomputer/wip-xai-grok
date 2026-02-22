@@ -1,5 +1,5 @@
 ###### WIP Computer
-# wip-grok
+# wip-xai-grok
 
 xAI Grok API. Search the web, search X, generate images, generate video. All from one module.
 
@@ -13,7 +13,7 @@ Zero dependencies. Four interfaces: CLI, Module, MCP Server, Skill.
 Open your AI coding tool and say:
 
 ```
-Clone wipcomputer/wip-grok and read the README and SKILL.md.
+Clone wipcomputer/wip-xai-grok and read the README and SKILL.md.
 Then explain to me:
 1. What is this tool?
 2. What does it do?
@@ -39,29 +39,29 @@ The tool resolves your key automatically:
 
 ```bash
 # Search (sensor)
-wip-grok search-web "latest AI regulation developments"
-wip-grok search-x "what people are saying about OpenAI"
-wip-grok search-x "AI thoughts" --handles=elonmusk,kaboré --from=2026-01-01
+wip-xai-grok search-web "latest AI regulation developments"
+wip-xai-grok search-x "what people are saying about OpenAI"
+wip-xai-grok search-x "AI thoughts" --handles=elonmusk,kaboré --from=2026-01-01
 
 # Image generation (actuator)
-wip-grok imagine "a cat in space, photorealistic" --output=cat.png
-wip-grok imagine "minimalist logo" --aspect=16:9 --n=4
+wip-xai-grok imagine "a cat in space, photorealistic" --output=cat.png
+wip-xai-grok imagine "minimalist logo" --aspect=16:9 --n=4
 
 # Image editing (actuator)
-wip-grok edit "make the sky purple" --image=photo.jpg --output=edited.jpg
+wip-xai-grok edit "make the sky purple" --image=photo.jpg --output=edited.jpg
 
 # Video generation (actuator)
-wip-grok video "a sunset timelapse over the ocean" --duration=10 --resolution=720p --wait
-wip-grok video "animate this image" --image=photo.jpg --output=animated.mp4
+wip-xai-grok video "a sunset timelapse over the ocean" --duration=10 --resolution=720p --wait
+wip-xai-grok video "animate this image" --image=photo.jpg --output=animated.mp4
 
 # Check video status
-wip-grok video-status abc123
+wip-xai-grok video-status abc123
 ```
 
 ### As a Module
 
 ```javascript
-import { search_web, search_x, generate_image, generate_video, wait_for_video } from '@wipcomputer/wip-grok';
+import { search_web, search_x, generate_image, generate_video, wait_for_video } from '@wipcomputer/wip-xai-grok';
 
 // Sensor: search
 const web = await search_web({ query: "UN climate summit" });
@@ -89,9 +89,9 @@ Add to your `.mcp.json`:
 
 ```json
 {
-  "wip-grok": {
+  "wip-xai-grok": {
     "command": "node",
-    "args": ["/path/to/wip-grok/mcp-server.mjs"]
+    "args": ["/path/to/wip-xai-grok/mcp-server.mjs"]
   }
 }
 ```
