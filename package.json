@@ -1,6 +1,6 @@
 {
   "name": "@wipcomputer/wip-xai-grok",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "xAI Grok API. Search the web, search X, generate images, generate video.",
   "main": "core.mjs",
@@ -34,5 +34,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wipcomputer/wip-xai-grok.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1"
   }
 }
